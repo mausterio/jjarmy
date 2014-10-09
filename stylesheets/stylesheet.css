@@ -1,7 +1,11 @@
 body {
   margin: 0;
   padding: 0;
-  background: #151515 url("http://tancap.in/wallpaper/21/3/hd-for-android-download-1080p-hd.jpg") 0 0;
+    background: url(http://tancap.in/wallpaper/21/3/hd-for-android-download-1080p-hd.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   color: #eaeaea;
   height:100%;
   font: 16px;
